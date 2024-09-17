@@ -16,6 +16,7 @@ body
    background: rgb(0,100,0);
    text-align: center;
    
+   
 }
 
 .page ul 
@@ -34,7 +35,9 @@ body
 {
   text-decoration: none;
   color: #fff;
-  l
+  border: 1px solid white;
+  padding: 20px 15px ;
+  
 }
 .page a:hover
 {
