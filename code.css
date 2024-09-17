@@ -1,6 +1,33 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body{
   background-image: url(Mixed-Flavoured-Birthday-Cake.jpg);
   background-repeat:no-repeat;
   background-size: cover;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.page{
+   background: rgb(0,100,0);
+   text-align: center;
+   
+}
 
+.page ul {
+   display: inline-flex;
+   color: #fff;
+   list-style: none;
+}
+.page ul li {
+  width: 120px;
+  padding: 15px;
+  margin: 15px;
+}
+.page ul li a  {
+  text-decoration: none;
+  color: #fff;
+  l
 }
