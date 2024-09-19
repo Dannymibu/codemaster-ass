@@ -44,3 +44,31 @@ body
   background-color: #2b2b2b;
   border-radius: 25px; 
 }
+
+.services{
+
+font-family: 'Franklin Gothic Medium',;
+display: flex;
+justify-content: left;
+align-items:  center;
+flex-direction: column;
+background: #fafafa;
+
+
+}
+.services h1{
+  font-size: 3em;
+  text-align: center;
+  margin: 25px 0;
+  font-weight: 500px;
+
+}
+
+.content{
+  text-align: center;
+  display: flex;
+  width: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
