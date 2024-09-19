@@ -48,11 +48,12 @@ body
 .services{
 
 font-family: 'Franklin Gothic Medium',;
+position: relative;
 display: flex;
 justify-content: left;
 align-items:  center;
 flex-direction: column;
-background: #fafafa;
+
 
 
 }
@@ -61,6 +62,8 @@ background: #fafafa;
   text-align: center;
   margin: 25px 0;
   font-weight: 500px;
+  position: absolute;
+  bottom: 20px;
 
 }
 
@@ -71,4 +74,29 @@ background: #fafafa;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
+}
+.delivery{
+  min-height: 220px;
+  padding: 30px;
+  width: 320px;
+  border-radius:5px;
+  flex-direction: column;
+  margin: 10px 4px;
+  background: #fff;
+  align-items: center;
+  box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+
+}
+.delivery i{
+   margin: 20px;
+   color: #ff5724;
+}
+.delivery h2{
+  text-align: center;
+  margin-bottom:12px;
+  font-weight: 400px;
+}
+.delivery{
+  color: #6c757d;
+  text-align: center;
 }
